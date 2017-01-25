@@ -1,0 +1,25 @@
+// Label for Bank Approval Statuses
+
+//noinspection ALL
+.label-approved {
+  @include label-variant($brand-success)
+}
+
+//noinspection ALL
+.label-pending {
+  @include label-variant($brand-warning)
+}
+
+//noinspection ALL
+.label-rejected {
+  @include label-variant($brand-danger)
+}
+
+//noinspection ALL
+.label-submitted {
+  @include label-variant($brand-info)
+}
+
+.panel-active {
+    @include panel-variant(none, white, blue, none)
+}

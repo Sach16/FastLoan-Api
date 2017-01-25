@@ -1,0 +1,14 @@
+/vendor
+/node_modules
+/public/css
+Homestead.yaml
+Homestead.json
+.env
+.idea
+.vagrant
+*.sublime-*
+/public/build
+/public/js
+/resources/assets/vendor
+/nbproject
+.vscode/

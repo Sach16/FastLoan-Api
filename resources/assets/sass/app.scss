@@ -1,0 +1,45 @@
+// Setup the admin panel theme
+@import "theme/variables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "theme/bootswatch";
+@import "theme/chosen";
+@import "../vendor/bootstrap-chosen/bootstrap-chosen";
+@import "../vendor/eonasdan-bootstrap-datetimepicker/src/sass/_bootstrap-datetimepicker";
+
+// Components
+body {
+  padding-top: 80px;
+}
+.inline-block {
+  display: inline-block;
+}
+
+@import "components/labels";
+
+//File Inputs
+
+input[type="file"]{
+-moz-appearance: none;
+padding: 0px;
+height: 40px;
+float: left;
+margin-bottom: 10px;
+line-height: 1;
+outline: medium none;
+border: 0px none;
+}
+
+td p{
+    display: block;
+    float: left;
+    width: 100px;
+    word-wrap: break-word;
+}
+
+.list-group-item {
+  padding-left: 40px;
+}
+
+.list-group-item a, .panel-heading a {
+	text-decoration : none !important;
+}

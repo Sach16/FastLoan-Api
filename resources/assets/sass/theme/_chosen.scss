@@ -1,0 +1,16 @@
+$chosen-background: $input-bg !default;
+$chosen-border: 1px solid $input-border !default;
+$chosen-border-color: $input-border-focus;
+$chosen-border-radius: $input-border-radius !default;
+$chosen-multi-border-radius: $chosen-border-radius !default;
+$chosen-box-shadow: none !default;
+$chosen-drop-border: $input-border !default;
+$chosen-drop-box-shadow: none !default;
+$chosen-drop-zindex: 1060 !default;
+$chosen-focus-border: 2px solid $input-border-focus !default;
+$chosen-focus-box-shadow: none !default;
+$chosen-focus-transition: border linear .2s, box-shadow linear .2s !default;
+$chosen-height: $input-height-base !default;
+$chosen-multi-height: $input-height-base !default;
+$chosen-sprite-path: 'images/chosen-sprite.png' !default;
+$chosen-sprite-retina-path: 'images/chosen-sprite@2x.png' !default;
